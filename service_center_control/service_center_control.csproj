@@ -58,6 +58,54 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCClients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCClients.Designer.cs">
+      <DependentUpon>UCClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCOrders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCOrders.Designer.cs">
+      <DependentUpon>UCOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPayments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPayments.Designer.cs">
+      <DependentUpon>UCPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCShop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCShop.Designer.cs">
+      <DependentUpon>UCShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCWarehouse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCWarehouse.Designer.cs">
+      <DependentUpon>UCWarehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCWhIncome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCWhIncome.Designer.cs">
+      <DependentUpon>UCWhIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCWhPostingfrom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCWhPostingfrom.Designer.cs">
+      <DependentUpon>UCWhPostingfrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCWhRemain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCWhRemain.Designer.cs">
+      <DependentUpon>UCWhRemain.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -70,6 +118,30 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UCClients.resx">
+      <DependentUpon>UCClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCOrders.resx">
+      <DependentUpon>UCOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPayments.resx">
+      <DependentUpon>UCPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCShop.resx">
+      <DependentUpon>UCShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCWarehouse.resx">
+      <DependentUpon>UCWarehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCWhIncome.resx">
+      <DependentUpon>UCWhIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCWhPostingfrom.resx">
+      <DependentUpon>UCWhPostingfrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCWhRemain.resx">
+      <DependentUpon>UCWhRemain.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
